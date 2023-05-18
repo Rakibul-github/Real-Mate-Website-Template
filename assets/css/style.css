@@ -1,6 +1,7 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+/* nav section code start */
 .navbar
 {
     height: 100px;
@@ -60,11 +61,64 @@
     padding: 5px 8px;
     border-radius: 4px;
 }
-
+/* header section code start */
 header
 {
     width: 100%;
-    height: 100vh;
     background: url(../images/Banner.jpg);
     background-size: cover;
+}
+header .create-page h2
+{
+    width: 60%;
+    font-weight: 500 !important;
+    line-height: 1 !important;
+}
+header .create-page form
+{
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+}
+header .create-page form h4
+{
+    font-size: 20px;
+    text-align: center;
+    padding: 25px;
+}
+header .create-page form label
+{
+    color: #23273A;
+    opacity: 0.7;
+}
+header .create-page input
+{
+    margin-top: 5px;
+}
+header .create-page ::placeholder
+{
+    color: #23273A;
+}
+header .create-page .form-group
+{
+    margin-bottom: 20px;
+}
+header .create-page form .level-flex
+{
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(86, 88, 97, 0.411);
+    padding: 3px;
+    border-radius: 6px;
+}
+header .create-page form .level-flex select, input
+{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+header .create-page form .level-flex select
+{
+    width: 70%;
 }
