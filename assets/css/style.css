@@ -1,4 +1,5 @@
 *{
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 /* nav section code start */
@@ -242,3 +243,90 @@ header .create-page form
     color: #23273A;
 }
 /* profile sectiton code end */
+
+/* featured profile section code start */
+.featured
+{
+    background: #FBFAFE;
+}
+/* featured profile section code end */
+
+  .slick-slide {
+    margin: 0px 20px;
+  }
+
+  .slick-slide img {
+    width: 100%;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    color: black;
+  }
+
+  .slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+  }
+  
+  .slick-active {
+    opacity: .5;
+  }
+
+  .slick-current {
+    opacity: 1;
+  }
+  .featured .card-profile
+  {
+    border-radius: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  .featured .card-profile img
+  {
+    border-radius: 20px;
+  }
+  .featured .card-profile p
+  {
+    font-size: 18px;
+    font-weight: 400;
+    color: #FA4A6F;
+    margin: 10px 0;
+    padding: 0 10px;
+  }
+  .featured .card-profile p span
+  {
+    font-size: 14px;
+    color: #23273A;
+  }
+  .featured .card-profile
+  {
+    background: #fff;
+    transition: .5s all;
+    cursor: pointer;
+    box-shadow: 0px 10px 20px -20px rgba(0, 0, 0, 0.45);
+  }
+  .featured .card-profile img
+  {
+    transition: .5s all;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .slick-prev:before, .slick-next:before
+  {
+    color: #FA4A6F;
+  }
+  .slick-prev:before {
+    position: absolute;
+    content: '';
+    background: url(../images/Icon/left-angel.png);
+    width: 15px;
+    height: 27px;
+}
+.slick-next:before {
+    position: absolute;
+    content: '';
+    background: url(../images/Icon/right-angel.png);
+    width: 15px;
+    height: 27px;
+}
