@@ -330,3 +330,45 @@ header .create-page form
     width: 15px;
     height: 27px;
 }
+
+/* profile secure section start */
+.profile-secure .profile-secure-img-box
+{
+    width: 300px;
+    height: 425px;
+    background: linear-gradient(rgba(255,255,255,.5),rgba(255,255,255, 0.5)), url(../images/profile-secure-1.jpg);
+    border-radius: 20px;
+    transform: rotate(-30deg);
+}
+.profile-secure .profile-secure-img-box img
+{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    transform: translate(80px, -50px);
+    rotate: 30deg;
+    box-shadow: 0px 50px 20px rgba(151, 143, 143, .2);
+}
+.profile-secure .card-content ul
+{
+    margin-left: 0px ;
+    padding-left: 0px;
+}
+.profile-secure .card-content ul li
+{
+    list-style: none;
+    justify-content: start;
+    align-items: center;
+    margin: 2px 0;
+    padding: 10px 0;
+}
+.profile-secure .card-content ul li i
+{
+    margin-right: 15px;
+}
+.profile-secure .card-content ul li:nth-child(2)
+{
+    border-top: 1px solid rgba(35, 39, 58, 0.247);
+    border-bottom: 1px solid rgba(35, 39, 58, 0.247);
+}
+/* profile secure section end */
