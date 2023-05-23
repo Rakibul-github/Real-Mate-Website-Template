@@ -665,6 +665,15 @@ header .create-page form
 {
     opacity: 1;
 }
+.membership .membership-card1 h5
+{
+    opacity: 0;
+    transition: .5s all;
+}
+.membership .membership-card1:hover h5
+{
+    opacity: 1;
+}
 .membership .membership-card1:hover .membership-card-inner::before
 {
     opacity: 1;
@@ -677,4 +686,81 @@ header .create-page form
 {
     opacity: 1;
 }
+@media (max-width: 768px) {
+    .membership .membership-card,
+    .membership .membership-card1
+    {
+        margin: 0 auto;
+    }
+.membership .membership-card-inner::after
+    {
+        position: absolute;
+        content: '';
+        width: 99.5%;
+        height: 99.6%;
+    }
+}
 /* membership section end */
+
+/* testimonial section start */
+.testimonial
+{
+    background: #FBFAFE;
+}
+.testimonial .testimonial-profile .testimonial-profile-header i
+{
+    color: #FA4A6F;
+}
+.testimonial .testimonial-profile .testimonial-profile-footer 
+{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial .testimonial-profile .testimonial-profile-footer span
+{
+    margin-left: 10px;
+}
+
+.testimonial .slick-slide {
+    margin: 0px 20px;
+  }
+.testimonial .slick-slide img {
+    width: auto;
+  }
+.testimonial .slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+  }
+  
+.testimonial .slick-active {
+    opacity: 1;
+  }
+
+.testimonial .slick-current {
+    opacity: 1;
+  }
+.slick-prev:before, .slick-next:before
+  {
+    color: #FA4A6F;
+    visibility: hidden;
+  }
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #FA4A6F;
+}
+.slick-dots li button:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    background: #FA4A6F;
+    border-radius: 50%;
+    opacity: .25;
+    margin: 20px 15px 15px 0px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/* testimonial section end */
